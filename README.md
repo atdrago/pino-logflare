@@ -1,9 +1,10 @@
 # pino-logflare
 
+> **Note:** This module is identical to the original `pino-logflare`, but with lodash removed to save on bundle size.
+
 This module provides transport for [pino][pino] that forwards messages to your [Logflare][logflare] account.
 
 You can use `pino-logflare` both for node and browser apps. We also support isomorphic Vercel apps.
-
 
 ## Installation
 
@@ -36,7 +37,7 @@ See the [VERCEL](./docs/VERCEL.md) documentation for details.
 
 ## Known Issues
 
-* Not compatible with `pino-pretty`.
+- Not compatible with `pino-pretty`.
 
 ## Credits
 
