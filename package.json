@@ -22,7 +22,10 @@
     "logflare",
     "logging"
   ],
-  "author": "Adam Drago <atdrago@gmail.com> (https://drago.cc)",
+  "author": "Zack Krida <sayhi@zackkrida.com> (https://zackkrida.com)",
+  "contributors": [
+    "Adam Drago <atdrago@gmail.com> (https://drago.cc)"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
