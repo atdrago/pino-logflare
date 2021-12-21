@@ -1,4 +1,4 @@
-import { LogflareUserOptionsI } from "logflare-transport-core"
+import { LogflareUserOptionsI } from "@atdrago/logflare-transport-core"
 
 function isObject(value?: unknown): value is object {
   return typeof value === "object" && value !== null

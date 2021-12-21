@@ -1,12 +1,12 @@
-import {addLogflareTransformDirectives, toLogEntry} from "./utils"
+import { addLogflareTransformDirectives, toLogEntry } from "./utils"
 import batch2 from "batch2"
 import split2 from "split2"
 import through2 from "through2"
 import fastJsonParse from "fast-json-parse"
-import {LogflareUserOptionsI} from "logflare-transport-core";
+import { LogflareUserOptionsI } from "@atdrago/logflare-transport-core"
 
 function batchStream(size: number) {
-  return batch2.obj({size})
+  return batch2.obj({ size })
 }
 
 function parseJsonStream() {
@@ -25,8 +25,4 @@ function toLogEntryStream(options: LogflareUserOptionsI) {
   })
 }
 
-export {
-  batchStream,
-  parseJsonStream,
-  toLogEntryStream,
-}
+export { batchStream, parseJsonStream, toLogEntryStream }

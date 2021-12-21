@@ -1,6 +1,6 @@
 import { toLogEntry } from "./utils"
 import stream from "stream-browserify"
-import { LogflareUserOptionsI } from "logflare-transport-core"
+import { LogflareUserOptionsI } from "@atdrago/logflare-transport-core"
 import { addLogflareTransformDirectives } from "./utils"
 
 const createConsoleWriteStream = (options: LogflareUserOptionsI) => {
