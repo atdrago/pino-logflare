@@ -1,8 +1,8 @@
 {
-  "name": "pino-logflare",
-  "version": "0.3.12",
+  "name": "@atdrago/pino-logflare",
+  "version": "0.3.13",
   "description": "A transport for Pino that sends messages to Logflare",
-  "homepage": "https://github.com/logflare/pino-logflare",
+  "homepage": "https://github.com/atdrago/pino-logflare",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -22,11 +22,11 @@
     "logflare",
     "logging"
   ],
-  "author": "Zack Krida <sayhi@zackkrida.com> (https://zackkrida.com)",
+  "author": "Adam Drago <atdrago@gmail.com> (https://drago.cc)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/logflare/pino-logflare.git"
+    "url": "git+https://github.com/atdrago/pino-logflare.git"
   },
   "engines": {
     "node": ">=10.2.0"
@@ -73,7 +73,7 @@
     "arrowParens": "always"
   },
   "bugs": {
-    "url": "https://github.com/logflare/pino-logflare/issues"
+    "url": "https://github.com/atdrago/pino-logflare/issues"
   },
   "directories": {
     "doc": "docs",
