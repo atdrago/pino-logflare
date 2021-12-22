@@ -58,8 +58,7 @@
   "dependencies": {
     "@atdrago/logflare-transport-core": "^0.2.6",
     "commander": "^5.0.0",
-    "pino": "^6.3.2",
-    "readable-stream": "^3.6.0"
+    "pino": "^6.3.2"
   },
   "prettier": {
     "singleQuote": false,

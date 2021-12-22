@@ -1,5 +1,4 @@
 import { logflarePinoVercel } from "./index"
-import Writable from "readable-stream/lib/_stream_writable.js"
 import pino from "pino"
 import { mockProcessStdout } from "jest-mock-process"
 import os from "os"
@@ -11,7 +10,7 @@ describe("main", () => {
       sourceToken: "testSourceToken",
     })
 
-    expect(stream).toBeInstanceOf(Writable)
+    expect(stream.write).toBeInstanceOf(Function)
     expect(send).toBeInstanceOf(Function)
     done()
   })
