@@ -1,5 +1,5 @@
 import { logflarePinoVercel } from "./index"
-import Writable from "readable-stream/lib/_stream_writable.js"
+import { Writable } from "stream"
 import pino from "pino"
 import { mockProcessStdout } from "jest-mock-process"
 import os from "os"
