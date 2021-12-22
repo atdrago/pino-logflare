@@ -1,4 +1,3 @@
-import createHttpWriteStream from "./httpStream"
 import createConsoleWriteStream from "./consoleStream"
 import {
   Level,
@@ -10,14 +9,6 @@ import {
   LogflareHttpClient,
   LogflareUserOptionsI,
 } from "@atdrago/logflare-transport-core"
-
-const isBrowser =
-  typeof window !== "undefined" && typeof window.document !== "undefined"
-
-const isNode =
-  typeof process !== "undefined" &&
-  process.versions != null &&
-  process.versions.node != null
 
 const createPinoBrowserSend = (options: LogflareUserOptionsI) => {
   const client = new LogflareHttpClient({ ...options, fromBrowser: true })
@@ -39,12 +30,4 @@ const logflarePinoVercel = (options: LogflareUserOptionsI) => {
   }
 }
 
-const createWriteStream = createHttpWriteStream
-
-export {
-  createWriteStream,
-  logflarePinoVercel,
-  createPinoBrowserSend,
-  createConsoleWriteStream,
-  createHttpWriteStream,
-}
+export { logflarePinoVercel }

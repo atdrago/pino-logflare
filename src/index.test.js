@@ -1,7 +1,6 @@
-import { logflarePinoVercel, createWriteStream } from "./index"
-import { Writable } from "stream-browserify"
+import { logflarePinoVercel } from "./index"
+import Writable from "readable-stream/lib/_stream_writable.js"
 import pino from "pino"
-import Pumpify from "pumpify"
 import { mockProcessStdout } from "jest-mock-process"
 import os from "os"
 
@@ -14,16 +13,6 @@ describe("main", () => {
 
     expect(stream).toBeInstanceOf(Writable)
     expect(send).toBeInstanceOf(Function)
-    done()
-  })
-
-  it("creates a writable http stream", async (done) => {
-    const writeStream = createWriteStream({
-      apiBaseUrl: "http://localhost:4000/",
-      apiKey: "test-key",
-      sourceToken: "test-token",
-    })
-    expect(writeStream).toBeInstanceOf(Pumpify)
     done()
   })
 })

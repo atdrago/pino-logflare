@@ -43,9 +43,6 @@
     "@babel/preset-env": "^7.10.3",
     "@babel/preset-typescript": "^7.10.1",
     "@types/node": "^14.0.14",
-    "@types/pumpify": "^1.4.1",
-    "@types/split2": "^2.1.6",
-    "@types/through2": "^2.0.36",
     "@typescript-eslint/eslint-plugin": "^4.16.0",
     "@typescript-eslint/parser": "^4.16.0",
     "eslint": "^7.3.1",
@@ -60,14 +57,9 @@
   },
   "dependencies": {
     "@atdrago/logflare-transport-core": "^0.2.6",
-    "batch2": "^1.0.6",
     "commander": "^5.0.0",
-    "fast-json-parse": "^1.0.3",
     "pino": "^6.3.2",
-    "pumpify": "^2.0.1",
-    "split2": "^3.1.1",
-    "stream-browserify": "^3.0.0",
-    "through2": "^3.0.1"
+    "readable-stream": "^3.6.0"
   },
   "prettier": {
     "singleQuote": false,
