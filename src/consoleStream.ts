@@ -1,10 +1,10 @@
 import { LogflareUserOptionsI } from "@atdrago/logflare-transport-core"
-import stream from "stream"
+import Writable from "readable-stream/lib/_stream_writable.js"
 
 import { addLogflareTransformDirectives, toLogEntry } from "./utils"
 
 const createConsoleWriteStream = (options: LogflareUserOptionsI) => {
-  const writeStream = new stream.Writable({
+  const writeStream = new Writable({
     objectMode: true,
     highWaterMark: 1,
   })
