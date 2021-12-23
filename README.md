@@ -1,6 +1,6 @@
 # pino-logflare
 
-> **Note:** This module is identical to the original `pino-logflare`, but with lodash removed to save on bundle size.
+> **Note:** The goal of this fork is to be identical to the original `pino-logflare`, but with all the things that aren't necessary removed. Currently, it drastically reduces the bundle size from 44.3kB to 2.8kB (both numbers minified and gzipped).
 
 This module provides transport for [pino][pino] that forwards messages to your [Logflare][logflare] account.
 
