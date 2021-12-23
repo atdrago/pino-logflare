@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@atdrago/logflare-transport-core@^0.2.6":
-  version "0.2.6"
-  resolved "https://registry.npmjs.org/@atdrago/logflare-transport-core/-/logflare-transport-core-0.2.6.tgz"
-  integrity sha512-03u2wB1YSW+k1OZ8XiZruFNzy0G6wP2/0AJJqz30Rl6+vDx3CS3dajifEQ+Uym9oEOmxvlm+IcjjXzCcBZvhzQ==
+"@atdrago/logflare-transport-core@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@atdrago/logflare-transport-core/-/logflare-transport-core-0.2.7.tgz#5ec2980f65980034f0e88092549bbfc4458c2ed7"
+  integrity sha512-mM9wx3ahNFP5M7N/3RCXC4koyQ/uR1uIYRw9T/RSXZO8yQwDGB5ExxkR/hYj8hHO9T4NucA/D5JZapNjIgWpKA==
   dependencies:
     "@types/lodash" "^4.14.153"
     big-integer "^1.6.48"
