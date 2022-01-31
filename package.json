@@ -1,7 +1,7 @@
 {
   "name": "@atdrago/pino-logflare",
   "sideEffects": false,
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "A transport for Pino that sends messages to Logflare",
   "homepage": "https://github.com/logflare/pino-logflare",
   "main": "dist/index.js",
