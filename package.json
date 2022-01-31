@@ -57,7 +57,7 @@
     "typescript": "^4.2.0"
   },
   "dependencies": {
-    "@atdrago/logflare-transport-core": "^0.2.11",
+    "@atdrago/logflare-transport-core": "^0.2.12",
     "batch2": "^1.0.6",
     "commander": "^5.0.0",
     "fast-json-parse": "^1.0.3",

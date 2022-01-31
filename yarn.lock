@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@atdrago/logflare-transport-core@^0.2.11":
-  version "0.2.11"
-  resolved "https://registry.yarnpkg.com/@atdrago/logflare-transport-core/-/logflare-transport-core-0.2.11.tgz#22e6e7d94f905f2267c65d0b790f2f203f044e45"
-  integrity sha512-1/uY/LGcdQ+MaQU2bDlQtaiSg0hQv7QPQ5O+uRykbV5tphngRAVvSmxYRCEZOvtVK5p8DL6mEkMuyBZCCgtpiw==
+"@atdrago/logflare-transport-core@^0.2.12":
+  version "0.2.12"
+  resolved "https://registry.yarnpkg.com/@atdrago/logflare-transport-core/-/logflare-transport-core-0.2.12.tgz#eae8056b50d78f8d89ada4586495315023adaeec"
+  integrity sha512-o2lley46EICUoNQBbvyn5TL5RXwYVfqx7ZLvF546GgdR+eVL8V4fpkE8cQOdSRAUeC9++4dO1FfNyiToSDD3jg==
   dependencies:
     big-integer "^1.6.48"
     bignumber.js "^9.0.0"

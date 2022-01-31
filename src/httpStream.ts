@@ -1,7 +1,5 @@
-import {
-  LogflareUserOptionsI,
-  LogflareHttpStreamClient,
-} from "@atdrago/logflare-transport-core"
+import { LogflareUserOptionsI } from "@atdrago/logflare-transport-core"
+import { LogflareHttpStreamClient } from "@atdrago/logflare-transport-core/dist/http_stream_client"
 import * as streams from "./streams"
 
 const pumpify = require("pumpify")
