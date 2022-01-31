@@ -9,7 +9,7 @@ import {
 import {
   LogflareHttpClient,
   LogflareUserOptionsI,
-} from "logflare-transport-core"
+} from "@atdrago/logflare-transport-core"
 
 const isBrowser =
   typeof window !== "undefined" && typeof window.document !== "undefined"

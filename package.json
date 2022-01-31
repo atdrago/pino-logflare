@@ -1,6 +1,7 @@
 {
-  "name": "pino-logflare",
-  "version": "0.4.0",
+  "name": "@atdrago/pino-logflare",
+  "sideEffects": false,
+  "version": "0.4.1",
   "description": "A transport for Pino that sends messages to Logflare",
   "homepage": "https://github.com/logflare/pino-logflare",
   "main": "dist/index.js",
@@ -56,6 +57,7 @@
     "typescript": "^4.2.0"
   },
   "dependencies": {
+    "@atdrago/logflare-transport-core": "^0.2.11",
     "batch2": "^1.0.6",
     "commander": "^5.0.0",
     "fast-json-parse": "^1.0.3",
@@ -76,5 +78,6 @@
   "directories": {
     "doc": "docs",
     "test": "test"
-  }
+  },
+  "packageManager": "yarn@1.22.17"
 }
